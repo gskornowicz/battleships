@@ -1,0 +1,1 @@
+pyinstaller --clean -F -n battleships .\main.py
