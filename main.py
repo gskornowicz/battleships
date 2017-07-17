@@ -46,11 +46,11 @@ while True:
         try:
             j = int(input("Please give me X coordinate to attack: "))
         except ValueError:
-            print("Sorry, you must give me coordinate number from 0 to 5")
+            print("Sorry, you must give me coordinate number from 0 to 4")
             continue
         else:
             if j > 4 or j < 0:
-                print("Sorry, you must give me coordinate number from 0 to 5")
+                print("Sorry, you must give me coordinate number from 0 to 4")
                 continue
             else:
                 break
